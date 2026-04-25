@@ -29,7 +29,7 @@
 | 1 | Ana sayfaya git | https://www.automationexercise.com | Ana sayfa yüklendi | | |
 | 2 | "Signup / Login" linkine tıkla | — | Login sayfası açıldı | | |
 | 3 | E-posta gir | ahmetturan1687@gmail.com | E-posta girildi | | |
-| 4 | Şifre gir | Test1234! | Şifre girildi | | |
+| 4 | Şifre gir | 3B58Hve35kc7@Cq | Şifre girildi | | |
 | 5 | "Login" butonuna tıkla | — | Ana sayfaya yönlendirildi | | |
 | 6 | Üst menüde kullanıcı adını kontrol et | — | "Logged in as [isim]" görünüyor | | |
 
@@ -185,7 +185,7 @@ Body (form-data): search_product=dress
 **Test Komutu:**
 ```
 POST https://automationexercise.com/api/verifyLogin
-Body (form-data): email=ahmetturan1687@gmail.com&password=Test1234!
+Body (form-data): email=ahmetturan1687@gmail.com&password=3B58Hve35kc7@Cq
 ```
 
 ---
