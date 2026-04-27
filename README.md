@@ -1,4 +1,4 @@
-# Selenium Otomasyon & Manuel Test — automationexercise.com
+# QA Automation Portfolio — Otomasyon Test Projesi
 
 Java + Selenium WebDriver ve REST Assured ile yazılmış kapsamlı test otomasyon projesi.  
 Hedef site: [automationexercise.com](https://www.automationexercise.com)
