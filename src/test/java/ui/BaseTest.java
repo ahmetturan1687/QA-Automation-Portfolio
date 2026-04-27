@@ -2,6 +2,7 @@ package ui;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import pages.HomePage;
 import utils.ConfigReader;
@@ -13,7 +14,7 @@ public class BaseTest {
 
     @BeforeMethod
     @Parameters({"browser"})
-    public void setUp(String browser) {
+    public void setUp(@Optional("chrome") String browser) {
         DriverManager.initDriver(browser);
         homePage = new HomePage(DriverManager.getDriver());
         homePage.open(ConfigReader.get("base.url"));
